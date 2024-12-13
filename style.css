@@ -1,0 +1,36 @@
+/
+a[href*="google.com"] {
+    color: green;
+}
+
+/
+a[href*="link-group.eu"] {
+    color: red;
+}
+
+/
+#second-div p:nth-child(odd) {
+    color: red;
+}
+
+#second-div p:nth-child(even) {
+    color: blue;
+}
+
+/
+#first-div p:nth-of-type(1)::after {
+    content: " - NEW";
+    color: yellow;
+    font-weight: bold;
+}
+
+#first-div p:nth-of-type(2)::after {
+    content: " - NEW";
+    color: yellow;
+    font-weight: bold;
+}
+
+/
+body p:nth-of-type(10):hover {
+    font-style: italic;
+}
